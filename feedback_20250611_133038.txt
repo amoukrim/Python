@@ -1,0 +1,8 @@
+URL: URL: https://github.com/amoukrim/Python/blob/main/Week1/Day3/ExerciseXPMoukrimDay3_ExerciceXP.py
+suggestions for improvement:
+- In `find_oldest_cat`, using a loop to iterate over the cats would make the code more scalable and easier to read if you had more than three cats.
+- Add docstrings to all functions to improve readability and explain their purpose.
+- In the `Zoo` class, the `sort_animals` method modifies the `animals` list in place. While functional, it might be better to return a new sorted list and leave the original list untouched to prevent unexpected side effects in other parts of the code.
+- The `get_groups` method in the `Zoo` class includes an error check. While this is good practice to avoid exceptions, more detailed output to the user can help with debugging.
+Correctness: 95%
+-----

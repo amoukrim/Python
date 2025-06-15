@@ -1,0 +1,16 @@
+URL: URL: https://github.com/amoukrim/Python/blob/main/Week1/Week1/Day4/MoukrimDay4_ExerciceXP_suite.py
+suggestions for improvement:
+- In the `PetDog` class, the `play` method could be improved by directly using the `*args` instead of creating a new list. This would be more efficient and concise.
+- Add docstrings to all classes and methods to improve readability and understanding.  Explain what each class and method does.
+- The `Family` class's `check_majority` method could be made slightly more efficient by breaking the loop after finding the matching member.  It currently continues to iterate even after finding the person.
+- Consider adding error handling (e.g., `try-except` blocks) to the `Family` class methods to handle potential issues like invalid input types.  For instance, what happens if `age` is not an integer in the `born` method?
+- The performance could be slightly improved by avoiding repeated string concatenation in the `play` method. Instead, use f-strings or `join` method for better efficiency.
+Correctness: 100%
+-----
+URL: URL: https://github.com/amoukrim/Python/blob/main/Week1/Week1/Day4/dog.py
+suggestions for improvement:
+- The code is well-structured and easy to follow.  Consider adding docstrings to methods for enhanced readability and clarity.
+- The `run_speed` calculation could potentially result in a `ZeroDivisionError` if `age` is 0. Add error handling (e.g., a `try-except` block) to gracefully manage this scenario.
+- The fight logic is clear and functional, but consider adding more robust handling of edge cases, such as if either dog’s weight or age were 0 or negative.
+Correctness: 100%
+-----

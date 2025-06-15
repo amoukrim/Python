@@ -1,0 +1,12 @@
+URL: https://github.com/amoukrim/Python/blob/main/ExercicesXP_day2.py
+suggestions for improvement:
+- In Exercise 1, using a dictionary comprehension would be more concise and Pythonic than `zip`.
+- Exercise 2's `calculprix` function has a logic error in its age condition (3 > age <= 12). It should be 3 <= age <= 12 or (age >=3) and (age <=12).  The bonus part (user input) is missing.
+- Exercise 3 has good usage of dictionary methods, but error handling (e.g., checking if keys exist before accessing them) would improve robustness.  The bonus part (merging dictionaries) is missing.
+- Exercises 4, 5, 6, and 7 are not included in the provided code.
+Brief justification:
+- correctness: Exercise 1 correctly converts lists to a dictionary, fulfilling that chapter objective. Exercise 2 partially addresses conditional logic and dictionary looping but has a logical error and omits the user input feature. Exercise 3 demonstrates dictionary manipulation, but lacks the bonus part and error handling.  The missing exercises 4, 5, 6 and 7 result in a lower correctness score.
+- readability: The code is mostly readable, but some variable names (like `mon_dictionnaire`) aren't very descriptive.  Inconsistent formatting reduces readability.  The code could benefit from more comments, especially explaining the logic in `calculprix`.
+- performance: The code's performance is efficient for the small datasets used.  The use of built-in functions like `zip` and dictionary methods keeps the performance high. The efficiency could improve even more if we avoid repetitive printing statements in the Exercise 3. 
+- security: There are no apparent security vulnerabilities in this code, as it only performs basic data manipulation and doesn't handle external input beyond simple print statements in a non-user interactive way.  No sensitive data is processed.
+
