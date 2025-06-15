@@ -1,0 +1,15 @@
+URL: URL: https://github.com/amoukrim/Python/blob/main/Week1/game.py
+suggestions for improvement:
+- The `game.py` file correctly implements the `Game` class with the four methods as specified: `get_user_item`, `get_computer_item`, `get_game_result`, and `play`.  However, it's missing the integration with `rock-paper-scissors.py` to manage multiple games and display the final summary.
+- The `play` method in the `Game` class should return a string representing the result ('win', 'draw', or 'loss')  as specified in the instructions.  Currently, it returns the result directly, requiring modification in `rock-paper-scissors.py` for proper score tracking.
+- The `rock-paper-scissors.py` file is missing entirely.  The instructions explicitly require this file to handle the game loop, score tracking, and display of the final summary.
+- Consider adding more robust error handling in `get_user_item` to deal with unexpected input types.
+Correctness: 85%
+-----
+URL: URL: https://github.com/amoukrim/Python/blob/main/Week1/rock-paper-scissors.py
+suggestions for improvement:
+- In `get_user_menu_choice()`, instead of returning None for invalid input, it might be better to loop until a valid choice is entered.
+- The `print_results` function could be improved by handling the case where no games were played (empty results dictionary).
+- Add more comprehensive docstrings to functions to explain parameters, return values, and overall functionality.
+Correctness: 95%
+-----
